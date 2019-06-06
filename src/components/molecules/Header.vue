@@ -1,8 +1,11 @@
 <template>
   <div class="m-header">
-    <router-link class="a-link f-menu" to="/">About Us</router-link>
-    <router-link class="a-link f-menu" to="/skicams">Skicams</router-link>
-    <router-link class="a-link f-menu" to="/contact">Contact</router-link>
+    <div class="a-logo">PGS</div>
+    <div class="m-nav">
+      <router-link class="a-link f-menu" to="/">About Us</router-link>
+      <router-link class="a-link f-menu" to="/skicams">Skicams</router-link>
+      <router-link class="a-link f-menu" to="/contact">Contact</router-link>
+    </div>
   </div>
 </template>
 
