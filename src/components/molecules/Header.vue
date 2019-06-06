@@ -1,7 +1,13 @@
 <template>
   <div class="m-header">
     <div class="m-mobile-content">
-      <div class="a-logo">PGS</div>
+      <div class="m-logo">
+        <img
+          class="a-logo"
+          src="@/assets/logo.png"
+          alt="PGS Software"
+        />
+      </div>
       <div class="m-nav">
         <router-link class="a-link f-menu" to="/">About Us</router-link>
         <router-link class="a-link f-menu" to="/skicams">Skicams</router-link>
@@ -12,7 +18,7 @@
 </template>
 
 <script>
-  export default {
-    name: "m-header"
-  }
+export default {
+  name: "m-header"
+}
 </script>
