@@ -5,10 +5,10 @@
   src: url('../assets/font/Roboto-Medium.ttf')
 
 body
+  @extend .f-text-16
   color: $MineShaft
   background: $AquaHaze
   font-family: 'Roboto', serif
-  font-size: 16px
 
 a
   &, &:hover, &:active
@@ -16,6 +16,8 @@ a
     color: inherit
     text-decoration: none
 
+*
+  box-sizing: border-box
 
 #app
   display: flex

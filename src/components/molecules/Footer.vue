@@ -1,6 +1,6 @@
 <template>
   <div class="m-footer">
-    <div>
+    <div class="a-sign">
       Powered by PGS
     </div>
   </div>
