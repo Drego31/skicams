@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <t-page class="p-skicams">
+    Skicams
+  </t-page>
 </template>
+
+<script>
+  import TPage from "../templates/Page"
+  export default {
+    name: 'p-skicams',
+    components: {TPage}
+  }
+</script>
