@@ -6,8 +6,8 @@
     </label>
     <input
       class="a-input f-relative"
-      type="text"
-      v-model="value"
+      :type="type"
+      v-model="v_model"
     />
   </div>
 </template>
@@ -16,11 +16,21 @@
 export default {
   name: 'a-input',
   props: {
+    value: {type: String, default: ''},
     label: {type: String, default: ''},
+    type: {type: String, default: 'text'},
     required: {type: Boolean, default: false},
   },
-  data: () => ({
-    value: ''
-  }),
+  computed: {
+    v_model: {
+      get() {
+        return this.value
+      },
+      set(value) {
+        this.$emit('input', value)
+      },
+
+    }
+  },
 }
 </script>
