@@ -2,6 +2,7 @@
   <div class="f-relative">
     <label class="a-label f-input" :class="value ? 'f-small' : ''">
       {{ label }}
+      <span v-if="required" class="f-text-red">*</span>
     </label>
     <input
       class="a-input f-relative"
