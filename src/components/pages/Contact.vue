@@ -1,5 +1,7 @@
 <template>
   <t-page class="p-contact">
+    <div class="f-flex-1"></div>
+
     <div class="m-post f-contact">
       <div class="m-content f-post">
         <div class="f-pb-5">
@@ -14,6 +16,8 @@
         </div>
       </div>
     </div>
+
+    <div class="f-flex-1"></div>
   </t-page>
 </template>
 
