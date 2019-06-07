@@ -24,8 +24,5 @@ export default {
   data: () => ({
     date: moment().format('DD-MM-YYYY')
   }),
-  mounted() {
-    console.log({cams: this.cams})
-  }
 }
 </script>
