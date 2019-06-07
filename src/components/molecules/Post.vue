@@ -1,10 +1,9 @@
 <template>
-  <div>
-    <div>
-      <img :src="img" :alt="title">
+  <div class="m-post">
+    <div class="a-img f-post" :style="`background-image: url('${img}');`">
     </div>
-    <div>
-      <div>
+    <div class="f-py-4 f-px-3">
+      <div class="f-pb-1 f-text-28">
         {{ title }}
       </div>
       <div>
@@ -16,7 +15,7 @@
 
 <script>
 export default {
-  name: "m-post",
+  name: 'm-post',
   props: {
     img: {type: String, required: true},
     title: {type: String, required: true},

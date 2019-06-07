@@ -9,25 +9,26 @@
 </template>
 
 <script>
-import TPage from "../templates/Page"
-import MPost from "../molecules/Post"
+import TPage from '../templates/Page'
+import MPost from '../molecules/Post'
+import Image from '../../assets/logo.png'
 export default {
   name: 'p-about-us',
   components: {MPost, TPage},
   data: () => ({
     posts: [
       {
-        img: 'photo.jpg',
+        img: Image,
         title: 'Lorem ipsum',
         message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
       },
       {
-        img: 'photo.jpg',
+        img: Image,
         title: 'Lorem ipsum',
         message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
       },
       {
-        img: 'photo.jpg',
+        img: Image,
         title: 'Lorem ipsum',
         message: 'Etiam ullamcorper. Suspendisse a pellentesque dui, non felis meacenas.',
       },
