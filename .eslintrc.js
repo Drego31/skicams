@@ -11,7 +11,8 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'semi': ['error', 'never'],
-    'indent': ['error', 2]
+    'indent': ['error', 2],
+    'quotes': ['error', 'single'],
   },
   parserOptions: {
     parser: 'babel-eslint'
