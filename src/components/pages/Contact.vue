@@ -1,19 +1,13 @@
 <template>
   <t-page class="p-contact">
     <div class="m-post f-contact">
-      <div>
-        <div class="f-pb-3">
-          <div>
-            <a-input/>
-          </div>
-          <div>
-            <a-input/>
-          </div>
+      <div class="m-content f-post">
+        <div class="f-pb-5">
+          <a-input label="Name" required/>
+          <a-input label="Email" required/>
         </div>
-        <div>
-          <a-input/>
-        </div>
-        <div>
+        <a-input class="f-mt-5" label="Message"/>
+        <div class="f-text-right f-py-3">
           <a-button>
             Send
           </a-button>
